@@ -1,4 +1,7 @@
+// here's a good intro to es6 object desctructuring:
+// https://wesbos.com/destructuring-objects/
 const { expect } = require('chai');
+// REMINDER: require all functions you're using from main.js
 const { returnsTwo } = require('../main');
 
 describe('Array', function() {
